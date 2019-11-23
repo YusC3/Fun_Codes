@@ -1,13 +1,22 @@
 """
 This is a code created for random fun based on ideas
 discussed @ an Interview.
-
-Pig-Latin Ver. 1.01
-
-Info: Performs Pig Latin translation based on pig latin rules based on
-http://www.piglatin.org/pig_latin_rules.
 """
+version = "Pig-Latin Ver. 1.01"
+
+info = "Performs Pig Latin translation based on pig latin rules based on"
+
+pig_url = "http://www.piglatin.org/pig_latin_rules"
+
 #Libraries used:
+errors_below =
+print("""
+Version: format(version) \n
+Info: format(info) \n
+For more information on Pig Latin, visit: format(pig_url)
+""")
+
+print("\n")
 
 print("Turn your text into Pig Latin!")
 print("Type in a word or a sentence to see what happens!")
@@ -21,13 +30,8 @@ print("""
 2. NO PUNCTUATION \n
 3. NO UNSUAL CHARACTERS (english only please :) )
 """)
-print("\n")
 
-print("""
-For more information on Pig Latin, visit:
-http://www.piglatin.org/pig_latin_rules
-""")
-
+make_function_check_for_numbers =
 def pig_latin(word):
     """
     This function takes a word and Pig-Latin-afies's it.
